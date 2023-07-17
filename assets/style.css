@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+nav > a {
+  padding: 0.5em;
+  font-size: 1.25rem;
+}

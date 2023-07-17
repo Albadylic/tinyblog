@@ -1,6 +1,6 @@
 ---
 title: second post
-layout: layout.html
+layout: base.html
 ---
 
 jaijodjodjo

@@ -1,13 +1,5 @@
 ---
-layout: layout.html
+layout: base.html
 ---
 
 <p>Wocleme to ma blog</p>
-
-{% for post in collections.post %}
-
-<h2>{{post.data.title}}</h2>
-<p>{{ post.content }}</p>
-<a href="{{ post.url }}">Read post</a>
-
-{% endfor %}
