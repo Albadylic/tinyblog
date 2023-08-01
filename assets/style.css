@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-header {
+header > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,9 +19,45 @@ h1,
 h2,
 h3 {
   font-family: Tahoma;
+  color: black;
 }
 
 p,
-a {
+a,
+li {
   font-family: Verdana;
+  color: black;
+}
+
+.home_container {
+  margin: 1vh 2vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left_side {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_side > div {
+  width: 50vw;
+  height: 35vh;
+}
+
+.definition {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_image {
+  height: 40vh;
+  width: 20vw;
+  object-fit: cover;
 }
