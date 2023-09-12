@@ -6,13 +6,26 @@ header > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: antiquewhite;
   padding: 0 0.5em;
+  background: linear-gradient(#8ecae6, white);
 }
 
 nav > a {
   padding: 0.25em;
   font-size: 1.25rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5em;
+  background: linear-gradient(white, #8ecae6);
+}
+
+hr {
+  width: 80vw;
+  border: 0.125em solid black;
 }
 
 h1,
@@ -31,22 +44,21 @@ li {
 
 .home_container {
   margin: 1vh 2vw;
-  height: 80vh;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.left_side {
-  width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.left_side > div {
+.home_container > div {
+  margin: 1em;
+}
+
+.image_container {
   width: 50vw;
-  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .definition {
@@ -57,7 +69,6 @@ li {
 }
 
 .home_image {
-  height: 40vh;
-  width: 20vw;
+  width: 50vw;
   object-fit: cover;
 }
